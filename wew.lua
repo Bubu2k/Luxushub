@@ -22,7 +22,7 @@ local oldcolor = {
     ["Border Color"] = Color3.fromRGB(209, 23, 23),
     ["Click Effect Color"] = Color3.fromRGB(230, 230, 230),
     ["Setting Icon Color"] = Color3.fromRGB(230, 230, 230),
-    ["Logo Image"] = "rbxassetid://94177612555189",
+    ["Logo Image"] = "rbxassetid://126706776122280",
     ["Search Icon Color"] = Color3.fromRGB(255, 255, 255),
     ["Search Icon Highlight Color"] = Color3.fromRGB(209, 23, 23),
     ["GUI Text Color"] = Color3.fromRGB(230, 230, 230),
@@ -57,7 +57,7 @@ local b = {
     ["Border Color"] = Color3.fromRGB(255, 255, 255),
     ["Click Effect Color"] = Color3.fromRGB(230, 230, 230),
     ["Setting Icon Color"] = Color3.fromRGB(230, 230, 230),
-    ["Logo Image"] = "rbxassetid://94177612555189",
+    ["Logo Image"] = "rbxassetid://126706776122280",
     ["Search Icon Color"] = Color3.fromRGB(255, 255, 255),
     ["Search Icon Highlight Color"] = Color3.fromRGB(209, 23, 23),
     ["GUI Text Color"] = Color3.fromRGB(230, 230, 230),
@@ -888,7 +888,7 @@ function t.CreateMain(H)
     ImageButton.BorderSizePixel = 0
     ImageButton.Position = UDim2.new(0.100739375, 0, 0.121457487, 0)
     ImageButton.Size = UDim2.new(0, 40, 0, 40)
-    ImageButton.Image = "rbxassetid://94177612555189"
+    ImageButton.Image = "rbxassetid://126706776122280"
     ImageButton.MouseButton1Click:Connect(function()
         _G.CloseandOpenUi = not _G.CloseandOpenUi
         a9.Visible = _G.CloseandOpenUi
@@ -1149,7 +1149,7 @@ function t.CreateMain(H)
     am.BackgroundTransparency = 1.000
     am.Position = UDim2.new(0.5, 0, 0.5, 0)
     am.Size = UDim2.new(1, -10, 1, -10)
-    am.Image = "rbxassetid://94177612555189"
+    am.Image = "rbxassetid://126706776122280"
     am.Visible = true
     am.ImageColor3 = getgenv().UIColor["Setting Icon Color"]
     table.insert(
@@ -8438,7 +8438,7 @@ if Second_Sea then
                                     topos(CFrame.new(-9570.033203125, 315.9346923828125, 6726.89306640625))
                                 end
                             else
-                                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Buy",1,1)
+                                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ks","Buy",1,1)
                             end
                         end
                     end)
